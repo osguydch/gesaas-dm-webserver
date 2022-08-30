@@ -1,0 +1,49 @@
+host = "0.0.0.0"
+port = 10110
+mode = "debug" # 模式 debug | test | release
+
+[logger]
+logDir = "./logs/server.log" # 日志存储目录
+logLevel = "debug" # 日志等级：debug; info; warn; error; fatal;
+maxSize = 10 # 在进行切割之前，日志文件的最大大小（以MB为单位）
+maxAge = 30 # 保留旧文件的最大天数
+compress = false # 是否压缩/归档旧文件
+stdout = true
+
+[apollo]
+appID = "BK-Config"
+cluster = "default"
+metaAddr = "http://10.0.32.200:8081"
+bkCommon = "BK.Common.V1"
+bkSample = "BK.Sample.V1"
+bkRunPlan = "BK.RunPlan.V1"
+bkConsumable = "BK.Consumable.V1"
+
+[servers]
+    # 权限管理服务
+    # [servers.auth]
+    # ip = "*"
+    # port = 9090
+
+    [servers.datamanagement]
+    ip = "10.0.32.55"
+    port = 9092
+    # framed, http, zlib
+    transport = "buffered"
+    # binary, compact, json
+    protocol = "binary"
+    usessl = false
+
+[metadata]
+# 刷新进行中任务列表时间间隔单位：秒(s)
+getTaskInterval = 30
+
+    [[metadata.analysis]]
+    analysisPipelineKey = "Sequencing_ECC"
+    analysisPipelineDisplayName = "Sequencing_ECC"
+    analysisPipeline = "Sequencing_ECC"
+
+    [[metadata.analysis]]
+    analysisPipelineKey = "Sequencing_ECC_with_bitseq"
+    analysisPipelineDisplayName = "Sequencing_ECC_with_bitseq"
+    analysisPipeline = "Sequencing_ECC_with_bitseq"

@@ -1,0 +1,4 @@
+[submodule "dm_idl"]
+	path = dm_idl
+	url = ssh://git@10.0.32.42:4422/gesaas/dm_idl.git
+	branch = v0.2

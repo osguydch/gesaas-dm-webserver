@@ -1,0 +1,350 @@
+[
+  {
+    "locale": "en",
+    "key": "Success",
+    "trans": "success"
+  },
+  {
+    "locale": "en",
+    "key": "InvalidParamError",
+    "trans": "Invalid parameter: {0}"
+  },
+  {
+    "locale": "en",
+    "key": "NotExistsError",
+    "trans": "Not Exists"
+  },
+  {
+    "locale": "en",
+    "key": "NotSupportError",
+    "trans": "Not Support"
+  },
+  {
+    "locale": "en",
+    "key": "UnknownError",
+    "trans": "Internal Error"
+  },
+
+  {
+    "locale": "en",
+    "key": "sampleNameValidator",
+    "trans": "Sample info name does not conform to the rules"
+  },
+  {
+    "locale": "en",
+    "key": "platformKeyValidator",
+    "trans": "Invalid parameter: platform"
+  },
+  {
+    "locale": "en",
+    "key": "index1LengthKeyValidator",
+    "trans": "Invalid parameter: index1"
+  },
+  {
+    "locale": "en",
+    "key": "index2LengthKeyValidator",
+    "trans": "Invalid parameter: index2"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanNameValidator",
+    "trans": "Invalid parameter: run plan name"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanTypeValidator",
+    "trans": "Invalid parameter: type"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanThroughputModeValidator",
+    "trans": "Invalid parameter: throughput mode"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanReadlengthModeValidator",
+    "trans": "Invalid parameter: readlength mode"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanReferenceValidator",
+    "trans": "Invalid parameter: reference"
+  },
+  {
+    "locale": "en",
+    "key": "runPlanAnalysisValidator",
+    "trans": "Invalid parameter: analysis"
+  },
+
+  {
+    "locale": "en",
+    "key": "DmFailedError",
+    "trans": "failed"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidTokenError",
+    "trans": "invalid token"
+  },
+  {
+    "locale": "en",
+    "key": "DmNoAuthError",
+    "trans": "no auth"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidCreatorIdError",
+    "trans": "invalid creator id"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidStatusError",
+    "trans": "invalid status"
+  },
+  {
+    "locale": "en",
+    "key": "DmRunIsNotFinishedError",
+    "trans": "run is not finished"
+  },
+  {
+    "locale": "en",
+    "key": "DmRunIsFinishedError",
+    "trans": "run is finished"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidSampleIdError",
+    "trans": "invalid sampleid"
+  },
+  {
+    "locale": "en",
+    "key": "DmSampleNameAlreadyExistsError",
+    "trans": "sample name already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptySampleNameError",
+    "trans": "empty sample name"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidRunPlanIdError",
+    "trans": "invalid runplan id"
+  },
+  {
+    "locale": "en",
+    "key": "DmRunPlanIdAlreadyExistsError",
+    "trans": "runplan id already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidRunTaskIdError",
+    "trans": "invalid runtask id"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidAnalysisIdError",
+    "trans": "invalid analysisid"
+  },
+  {
+    "locale": "en",
+    "key": "DmAnalysisIdAlreadyExistsError",
+    "trans": "analysisid already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidRunIdError",
+    "trans": "invalid runid"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptyAnalysisIdError",
+    "trans": "empty analysisid"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptyRunIdError",
+    "trans": "empty runid"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidDeviceNameError",
+    "trans": "invalid device name"
+  },
+  {
+    "locale": "en",
+    "key": "DmDeviceNameAlreadyExistsError",
+    "trans": "device name already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptyDeviceNameError",
+    "trans": "empty device name"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidDataTypeError",
+    "trans": "invalid data type"
+  },
+  {
+    "locale": "en",
+    "key": "DmDataTypeAlreadyExistsError",
+    "trans": "data type already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmDataGroupAlreadyExistsError",
+    "trans": "data group already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidDataGroupError",
+    "trans": "invalid data group"
+  },
+  {
+    "locale": "en",
+    "key": "DmDataGroupMappingAlreadyExistsError",
+    "trans": "data group mapping already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptyGroupNameError",
+    "trans": "empty group name"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidProjectNameError",
+    "trans": "invalid project name"
+  },
+  {
+    "locale": "en",
+    "key": "DmProjectNameAlreadyExistsError",
+    "trans": "project name already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidRunDataError",
+    "trans": "invalid run data"
+  },
+  {
+    "locale": "en",
+    "key": "DmRunDataAlreadyExistsError",
+    "trans": "run data already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmInvalidMacAddressError",
+    "trans": "invalid mac address"
+  },
+  {
+    "locale": "en",
+    "key": "DmMacAddressAlreadyExistsError",
+    "trans": "mac address already exists"
+  },
+  {
+    "locale": "en",
+    "key": "DmEmptyMacAddressError",
+    "trans": "empty mac address"
+  },
+
+  {
+    "locale": "en",
+    "key": "InvalidIdError",
+    "trans": "Invalid id"
+  },
+  {
+    "locale": "en",
+    "key": "FieldTypeError",
+    "trans": "type of field '{0}' is {1}"
+  },
+  {
+    "locale": "en",
+    "key": "MissingSampleError",
+    "trans": "At least one sample"
+  },
+  {
+    "locale": "en",
+    "key": "TooMuchSampleError",
+    "trans": "Maximum number of samples is 99"
+  },
+  {
+    "locale": "en",
+    "key": "SampleNameInvalidError",
+    "trans": "Sample {0} line: sample name '{1}' does not conform to the rules"
+  },
+  {
+    "locale": "en",
+    "key": "SampleNameReservedError",
+    "trans": "Sample {0} line: sample name '{1}' is reserved word"
+  },
+  {
+    "locale": "en",
+    "key": "SampleNameExistsError",
+    "trans": "Sample {0} line: sample name '{1}' already exists"
+  },
+  {
+    "locale": "en",
+    "key": "Read1IndexInvalidError",
+    "trans": "Sample {0} line: read1Index invalid"
+  },
+  {
+    "locale": "en",
+    "key": "IndexExistsError",
+    "trans": "Sample {0} line: index already exists"
+  },
+  {
+    "locale": "en",
+    "key": "Index1SeqLengthError",
+    "trans": "Sample {0} line: index1 seq '{1}' length greater than {2}"
+  },
+  {
+    "locale": "en",
+    "key": "Index1SeqInvalidError",
+    "trans": "Sample {0} line: index1 seq '{1}' does not conform to the rules"
+  },
+  {
+    "locale": "en",
+    "key": "Index1MismatchPredefinedError",
+    "trans": "Sample {0} line: index1 does not match the predefined index1ID"
+  },
+  {
+    "locale": "en",
+    "key": "Index2SeqLengthError",
+    "trans": "Sample {0} line: index2 seq '{1}' length greater than {2}"
+  },
+  {
+    "locale": "en",
+    "key": "Index2SeqInvalidError",
+    "trans": "Sample {0} line: index2 seq '{1}' does not conform to the rules"
+  },
+  {
+    "locale": "en",
+    "key": "Index2MismatchPredefinedError",
+    "trans": "Sample {0} line: index2 does not match the predefined index2ID"
+  },
+  {
+    "locale": "en",
+    "key": "Index1InvalidError",
+    "trans": "Sample {0} line: index1 invalid"
+  },
+  {
+    "locale": "en",
+    "key": "Index2InvalidError",
+    "trans": "Sample {0} line: index2 invalid"
+  },
+  {
+    "locale": "en",
+    "key": "Read1IndexKeyExistsError",
+    "trans": "Sample {0} line: read1Index key '{1}' already exists"
+  },
+  {
+    "locale": "en",
+    "key": "Read1IndexSeqInvalidError",
+    "trans": "Sample {0} line: read1Index seq '{1}' does not conform to the rules"
+  },
+  {
+    "locale": "en",
+    "key": "Read1IndexSeqExistsError",
+    "trans": "Sample {0} line: read1Index seq '{1}' already exists"
+  }
+]

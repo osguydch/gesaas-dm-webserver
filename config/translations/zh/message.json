@@ -1,0 +1,350 @@
+[
+  {
+    "locale": "zh",
+    "key": "Success",
+    "trans": "操作正常"
+  },
+  {
+    "locale": "zh",
+    "key": "InvalidParamError",
+    "trans": "无效参数:{0}"
+  },
+  {
+    "locale": "zh",
+    "key": "NotExistsError",
+    "trans": "不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "NotSupportError",
+    "trans": "不支持"
+  },
+  {
+    "locale": "zh",
+    "key": "UnknownError",
+    "trans": "服务异常"
+  },
+
+  {
+    "locale": "zh",
+    "key": "sampleNameValidator",
+    "trans": "样本信息名称不符合规则"
+  },
+  {
+    "locale": "zh",
+    "key": "platformKeyValidator",
+    "trans": "无效参数:建库方法"
+  },
+  {
+    "locale": "zh",
+    "key": "index1LengthKeyValidator",
+    "trans": "无效参数:index1"
+  },
+  {
+    "locale": "zh",
+    "key": "index2LengthKeyValidator",
+    "trans": "无效参数:index2"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanNameValidator",
+    "trans": "测序名称不符合规则"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanTypeValidator",
+    "trans": "无效参数:type"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanThroughputModeValidator",
+    "trans": "无效参数:通量模式"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanReadlengthModeValidator",
+    "trans": "无效参数:读长模式"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanReferenceValidator",
+    "trans": "无效参数:内参"
+  },
+  {
+    "locale": "zh",
+    "key": "runPlanAnalysisValidator",
+    "trans": "无效参数:分析流程"
+  },
+
+  {
+    "locale": "zh",
+    "key": "DmFailedError",
+    "trans": "操作失败"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidTokenError",
+    "trans": "无效token"
+  },
+  {
+    "locale": "zh",
+    "key": "DmNoAuthError",
+    "trans": "无授权"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidCreatorIdError",
+    "trans": "用户id不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidStatusError",
+    "trans": "状态值无效"
+  },
+  {
+    "locale": "zh",
+    "key": "DmRunIsNotFinishedError",
+    "trans": "测序或分析未完成"
+  },
+  {
+    "locale": "zh",
+    "key": "DmRunIsFinishedError",
+    "trans": "测序或分析已完成"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidSampleIdError",
+    "trans": "样本id不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmSampleNameAlreadyExistsError",
+    "trans": "样本表名称已存在，请修改样本表名称"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptySampleNameError",
+    "trans": "样本名称为空"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidRunPlanIdError",
+    "trans": "runplan id不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmRunPlanIdAlreadyExistsError",
+    "trans": "runplan id已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidRunTaskIdError",
+    "trans": "runtask id不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidAnalysisIdError",
+    "trans": "分析id不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmAnalysisIdAlreadyExistsError",
+    "trans": "分析id已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidRunIdError",
+    "trans": "runid不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptyAnalysisIdError",
+    "trans": "分析id为空"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptyRunIdError",
+    "trans": "runid为空"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidDeviceNameError",
+    "trans": "设备名称不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmDeviceNameAlreadyExistsError",
+    "trans": "设备名称已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptyDeviceNameError",
+    "trans": "设备名称为空"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidDataTypeError",
+    "trans": "数据类型不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmDataTypeAlreadyExistsError",
+    "trans": "数据类型已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmDataGroupAlreadyExistsError",
+    "trans": "数据组已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidDataGroupError",
+    "trans": "数据组不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmDataGroupMappingAlreadyExistsError",
+    "trans": "数据-组映射已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptyGroupNameError",
+    "trans": "数据组名字为空"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidProjectNameError",
+    "trans": "项目名称不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmProjectNameAlreadyExistsError",
+    "trans": "项目名称已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidRunDataError",
+    "trans": "Run数据不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmRunDataAlreadyExistsError",
+    "trans": "Run数据已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmInvalidMacAddressError",
+    "trans": "mac信息不存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmMacAddressAlreadyExistsError",
+    "trans": "mac信息已存在"
+  },
+  {
+    "locale": "zh",
+    "key": "DmEmptyMacAddressError",
+    "trans": "mac信息为空"
+  },
+
+  {
+    "locale": "zh",
+    "key": "InvalidIdError",
+    "trans": "无效id"
+  },
+  {
+    "locale": "zh",
+    "key": "FieldTypeError",
+    "trans": "参数 '{0}' 类型为 {1}"
+  },
+  {
+    "locale": "zh",
+    "key": "MissingSampleError",
+    "trans": "至少有一个样本"
+  },
+  {
+    "locale": "zh",
+    "key": "TooMuchSampleError",
+    "trans": "样本数量最大99"
+  },
+  {
+    "locale": "zh",
+    "key": "SampleNameInvalidError",
+    "trans": "样本第{0}行:样本名称'{1}'不符合规则"
+  },
+  {
+    "locale": "zh",
+    "key": "SampleNameReservedError",
+    "trans": "样本第{0}行:样本名称'{1}'为保留字"
+  },
+  {
+    "locale": "zh",
+    "key": "SampleNameExistsError",
+    "trans": "样本第{0}行:样本名称'{1}'重复"
+  },
+  {
+    "locale": "zh",
+    "key": "Read1IndexInvalidError",
+    "trans": "样本第{0}行:无效参数read1Index名称、read1Index序列"
+  },
+  {
+    "locale": "zh",
+    "key": "IndexExistsError",
+    "trans": "样本第{0}行:index重复"
+  },
+  {
+    "locale": "zh",
+    "key": "Index1SeqLengthError",
+    "trans": "样本第{0}行:index1序列'{1}'长度大于{2}"
+  },
+  {
+    "locale": "zh",
+    "key": "Index1SeqInvalidError",
+    "trans": "样本第{0}行:index1序列'{1}'格式不正确"
+  },
+  {
+    "locale": "zh",
+    "key": "Index1MismatchPredefinedError",
+    "trans": "样本第{0}行:index1序列与index1名称不匹配"
+  },
+  {
+    "locale": "zh",
+    "key": "Index2SeqLengthError",
+    "trans": "样本第{0}行:index2序列'{1}'长度不能大于{2}"
+  },
+  {
+    "locale": "zh",
+    "key": "Index2SeqInvalidError",
+    "trans": "样本第{0}行:index2序列'{1}'格式不正确"
+  },
+  {
+    "locale": "zh",
+    "key": "Index2MismatchPredefinedError",
+    "trans": "样本第{0}行:index2序列与index2名称不匹配"
+  },
+  {
+    "locale": "zh",
+    "key": "Index1InvalidError",
+    "trans": "样本第{0}行:无效参数index1名称、index1序列"
+  },
+  {
+    "locale": "zh",
+    "key": "Index2InvalidError",
+    "trans": "样本第{0}行:无效参数index2名称、index2序列"
+  },
+  {
+    "locale": "zh",
+    "key": "Read1IndexKeyExistsError",
+    "trans": "样本第{0}行:read1Index名称'{1}'重复"
+  },
+  {
+    "locale": "zh",
+    "key": "Read1IndexSeqInvalidError",
+    "trans": "样本第{0}行:read1Index序列'{1}'格式不正确"
+  },
+  {
+    "locale": "zh",
+    "key": "Read1IndexSeqExistsError",
+    "trans": "样本第{0}行:read1Index序列'{1}'重复"
+  }
+]
